@@ -2,17 +2,17 @@ package hu.callinghour.model.domain;
 
 public class CallingHour {
 
-    private final TeachersName teachersName;
+    private final String teachersName;
     private final String arrest;
     private final String arrestDate;
 
-    public CallingHour(TeachersName teachersName, String arrest, String arrestDate) {
+    public CallingHour(String teachersName, String arrest, String arrestDate) {
         this.teachersName = teachersName;
         this.arrest = arrest;
         this.arrestDate = arrestDate;
     }
 
-    public TeachersName getTeachersName() {
+    public String getTeachersName() {
         return teachersName;
     }
 
